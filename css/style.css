@@ -13,6 +13,8 @@ body{
     background-size:100%;
     height: 100%;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .titulo-principal {
@@ -312,9 +314,9 @@ p{
 }
 
 footer p{
-    position: relative;
+    
     right: 470px;
-    align-self: center;
+    float: left;
     font-size: 12px;
     margin-bottom: 10px;
 }
